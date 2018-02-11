@@ -242,14 +242,20 @@ nav ul li a:hover{
 /****************
 *   ACCESORIOS  *
 *****************/
+
 .accesorios{
-
+    
 }
-
-.marcas{
+.accesorios{
     background-color: #ffffff;
     padding: 0;
     margin: 0;
+    text-align: center;
+
+}
+
+.materiales .img-thumbnail{
+    height: 200px;
 }
 /****************
 *   CONTACTO  *
