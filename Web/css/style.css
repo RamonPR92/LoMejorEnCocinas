@@ -219,6 +219,10 @@ nav ul li a:hover{
    padding-right: 10px;
 }
 
+.cuerpo .carpinteria .img-thumbnail{
+    height:200px; 
+}
+
 .cuerpo p{
     padding: 20px;
 }
