@@ -214,6 +214,11 @@ nav ul li a:hover{
     
 }
 
+.cuerpo .carpinteria{
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
 .cuerpo p{
     padding: 20px;
 }
