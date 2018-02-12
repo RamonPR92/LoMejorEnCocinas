@@ -2,7 +2,6 @@
 
 $email = $_POST['email'];
 $nombre = $_POST['nombre'];
-$asunto = $_POST['asunto'];
 $cuerpo = $_POST['cuerpo'];
 
 $header = 'From: ' . $email . " \r\n";
@@ -15,8 +14,8 @@ $mensaje .= "Su e-mail es: " . $email . " \r\n";
 $mensaje .= "Mensaje: " . $cuerpo . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
-$para = 'rapmonpr92@gmail.com';
-
+$para = 'contacto@lomejorencocinas.com';
+$asunto = 'LoMejorEnCocinas';
 mail($para, $asunto, utf8_decode($mensaje), $header);
 
 header("Location:index.html");
